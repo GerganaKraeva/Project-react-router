@@ -31,14 +31,14 @@ const Create = () => {
         <div className="create">
             <h2>Add a New Blog</h2>
             <form onSubmit={handleSumbit} >
-                <label>Block title:</label>
+                <label>Blog title:</label>
                 <input
                     type="text"
                     required
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 ></input>
-                <label>Block body:</label>
+                <label>Blog body:</label>
                 <textarea
                     required
                     value={body}
